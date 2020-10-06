@@ -41,7 +41,7 @@ void displayPolynomial(struct Node* poly)
 		printf("%dX^%d", poly->coeff, poly->pow);
 		poly = poly->next;
 		if(poly != NULL)
-			printf("+");
+			printf(" + ");
 	}
 }
 
